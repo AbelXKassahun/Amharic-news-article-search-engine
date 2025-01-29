@@ -11,6 +11,7 @@ import (
 	"log"
 	"path/filepath"
 	"sort"
+	"strconv"
 	"strings"
 	"sync"
 	"time"
@@ -57,7 +58,7 @@ func ScrapeArticleUrls(pageUrl string, numOfPages int, dirName string) {
 
 	c.Limit(&colly.LimitRule{
 		DomainGlob:  "*bbc.com*",
-		RandomDelay: 2 * time.Second,
+		RandomDelay: 1 * time.Second,
 		Parallelism: 2,
 	})
 
@@ -79,7 +80,7 @@ func ScrapeArticleUrls(pageUrl string, numOfPages int, dirName string) {
 		fmt.Printf("Error while scraping: %s\n", e.Error())
 	})
 
-	for i := 0; i < 1; i++ {
+	for i := 0; i < 22; i++ {
 		// telling the collector what to do (calback function) when it meets a critera (html element using a selector)
 		c.OnHTML("main li", func(h *colly.HTMLElement) {
 			img := h.DOM.Find("div div.promo-image div div img")
@@ -268,19 +269,28 @@ func saveToJSON(dirname string, filename string, data Article) {
 	if !exists {
 		arr = append(arr, data)
 		sort.Slice(arr, func(i, j int) bool {
+			if arr[i].PublishedTime.Equal(arr[j].PublishedTime) {
+				return parseArticleNum(arr[i].Article_ID) > parseArticleNum(arr[i].Article_ID)
+			}
 			return arr[i].PublishedTime.After(arr[j].PublishedTime)
 		})
+		// sort.Slice(arr, func(i, j int) bool {
+		// 	return parseArticleNum(arr[i].Article_ID) > parseArticleNum(arr[i].Article_ID)
+		// })
 		updatedJSON, err := json.MarshalIndent(arr, "", "  ")
 		if err != nil {
 			log.Fatalf("Error encoding JSON: %v\n", err)
-			return
 		}
 		if err := os.WriteFile(filePath, updatedJSON, 0644); err != nil {
 			log.Fatalf("Error writing file: %v\n", err)
-			return
 		}
 		log.Println("File created and data written:", filePath)
 	}
+}
+
+func parseArticleNum(article_id string) int {
+	num, _ := strconv.Atoi(strings.ReplaceAll(strings.Split(article_id, "_")[1], "ar", "")) 
+	return num
 }
 
 func normalizeURL(u string) string {
