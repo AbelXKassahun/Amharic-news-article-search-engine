@@ -12,13 +12,46 @@
     <div class="container" id="content">
         <h1>ቢቢሲ ዜና ቴክኖሎጂ</h1>
         
-        <form hx-post="/search" hx-target="#results" hx-swap="innerHTML">
-            <input type="text" name="query" placeholder="ፈልግ...">
-            <button type="submit">ፈልግ</button>
+        <form hx-post="/search" hx-target="#results" hx-on:submit="validateForm(event)" hx-swap="innerHTML">
+            <input type="text" id="userInput" name="query" placeholder="ፈልግ..." oninput="checkInput()" required>
+            <button id="submitBtn" type="submit" disabled>ፈልግ</button>
         </form>
-        <p id="error"></p>
+        <p id="errorMessage" style="color: red;"></p>
         
         <div id="results" class="cards-container"></div>
     </div>
+
+    <script>
+        let previousSubmission = null;
+
+        function checkInput() {
+            let inputField = document.getElementById("userInput");
+            let submitButton = document.getElementById("submitBtn");
+            
+            // Enable the button only if input is not empty
+            submitButton.disabled = inputField.value.trim() === "";
+        }
+
+        function validateForm(event) {
+            let inputField = document.getElementById("userInput");
+            let errorMessage = document.getElementById("errorMessage");
+
+            if (inputField.value.trim() === "") {
+                event.preventDefault(); // Prevent submission
+                errorMessage.textContent = "Input cannot be empty!";
+                return;
+            }
+
+            if (inputField.value === previousSubmission) {
+                event.preventDefault(); 
+                errorMessage.textContent = "You already submitted this input!";
+                return;
+            }
+
+            // Store last submitted value
+            previousSubmission = inputField.value;
+            errorMessage.textContent = ""; // Clear error
+        }
+    </script>
 </body>
 </html>

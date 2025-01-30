@@ -1,6 +1,12 @@
 <div class="details-container">
     <h2>{{ .Title }}</h2>
     <img src="{{ .ArticleImage.Image_url }}" alt="{{ .Title }}">
+    <div class="details">
+        {{range .Content}}
+            {{printf "<%s>%s</%s>" .ContentType .Text .ContentType}}
+        {{end}}
+    </div>
+    
     <!-- <p>{{ .Detail }}</p> -->
     <!-- <button onclick="window.history.back()">Go Back</button> -->
     <!-- <button hx-get="/" hx-target="#content" hx-swap="innerHTML">Back to Search</button> -->

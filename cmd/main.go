@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+	// "fmt"
 	"html/template"
 	"log"
 	"net/http"
@@ -9,15 +9,6 @@ import (
 	"search_engine/searchEngine"
 	"search_engine/utils"
 )
-
-type Item struct {
-	ID     int
-	Title  string
-	Image  string
-	Detail string
-}
-
-var items []Item // Populate this with your data
 
 // var tmpl = template.Must(template.ParseFiles("../UI/index.html"))
 
@@ -55,22 +46,37 @@ type Article struct {
 }
 */
 var Articles []utils.Article
+// var prevQuery string
 func searchHandler(w http.ResponseWriter, r *http.Request) {
 	query := r.FormValue("query")
-	if query != "" {
-		// Add your search logic here (filter items based on query)
-		items = generateSampleData()
-		Articles = searchEngine.SearchEngine(query)
-		tmpl := template.Must(template.ParseFiles("templates/cards.html"))
-		tmpl.Execute(w, Articles) // Return first 10 items
-	}
+	// if query != "" && query != prevQuery {
+	// 	prevQuery = query
+	// }
+	Articles = searchEngine.SearchEngine(query)
+	tmpl := template.Must(template.ParseFiles("templates/cards.html"))
+	tmpl.Execute(w, Articles) 
 }
 
+var articleTmpl = template.Must(template.New("article").Funcs(template.FuncMap{
+	"safeHTML": func(s string) template.HTML { return template.HTML(s) }, // Register function
+}).Parse(`
+<div class="details-container">
+
+    <h1>{{.Title}}</h1>
+	<img src="{{ .ArticleImage.Image_url }}" alt="{{ .Title }}">
+    <time>{{.PublishedTime.Format "January 2, 2006"}}</time>
+
+    <div class="details">
+        {{range .Content}}
+            {{printf "<%s>%s</%s>" .ContentType .Text .ContentType | safeHTML}}
+        {{end}}
+    </div>
+</div>
+`))
+
 func detailsHandler(w http.ResponseWriter, r *http.Request) {
-	// Extract ID from URL
     articleID := strings.TrimPrefix(r.URL.Path, "/details/")
 
-    // Find item by ID
     var articleDetail utils.Article
     for _, article := range Articles {
         if  article.Article_ID == articleID {
@@ -84,19 +90,5 @@ func detailsHandler(w http.ResponseWriter, r *http.Request) {
         return
     }
 
-    tmpl := template.Must(template.ParseFiles("templates/details.html"))
-    tmpl.Execute(w, articleDetail)
-}
-
-func generateSampleData() []Item {
-	var items []Item
-	for i := 1; i <= 20; i++ {
-		items = append(items, Item{
-			ID:     i,
-			Title:  fmt.Sprintf("Item %d", i),
-			Image:  fmt.Sprintf("https://picsum.photos/300/200?random=%d", i),
-			Detail: fmt.Sprintf("Detailed description for item %d", i),
-		})
-	}
-	return items
+    articleTmpl.Execute(w, articleDetail)
 }

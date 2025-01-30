@@ -76,6 +76,13 @@ button {
     margin: 20px 0;
 }
 
+.details {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    /* align-items: center; */
+}
+
 a{
     color: #ffffff;
     text-decoration: underline;
