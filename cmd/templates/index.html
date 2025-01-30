@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ቢቢሲ ዜና</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <script src="https://unpkg.com/htmx.org@2.0.4"></script>
+</head>
+<body>
+    <!-- <nav></nav> -->
+    <div class="container" id="content">
+        <h1>ቢቢሲ ዜና ቴክኖሎጂ</h1>
+        
+        <form hx-post="/search" hx-target="#results" hx-swap="innerHTML">
+            <input type="text" name="query" placeholder="ፈልግ...">
+            <button type="submit">ፈልግ</button>
+        </form>
+        <p id="error"></p>
+        
+        <div id="results" class="cards-container"></div>
+    </div>
+</body>
+</html>

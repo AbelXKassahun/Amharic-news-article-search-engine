@@ -1,0 +1,21 @@
+{{ range . }}
+<div class="card" 
+    hx-get="/details/{{ .Article_ID }}" 
+    hx-target="#content"
+    hx-swap="innerHTML"
+    hx-push-url="true"
+    style="cursor: pointer;">
+    <img src="{{ .ArticleMeta.Image_meta.Image_url }}" alt="{{ .Title }}">
+    <h3>{{ .Title }}</h3>
+    <a href="{{ .ArticleMeta.ArticleUrl }}" target="_blank">Read from source</a>
+</div>
+{{ end }}
+
+<!-- type Article struct {
+	Article_ID    string      `json:"article_id"`
+	Title         string      `json:"title"`
+	PublishedTime time.Time   `json:"published_time"`
+	ArticleImage  image_info  `json:"article_image"`
+	ArticleMeta   ArticleMeta `json:"article_meta"`
+	Content       []Content   `json:"content"`
+} -->

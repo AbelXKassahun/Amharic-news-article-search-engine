@@ -10,7 +10,9 @@ func DocumentLexicalAnalyzer() [][]TokenizedTerms {
 	// replaces abbreviations
 	// stems each terms
 	articles := GetDocuments()
+	CleanTerms = make([][]TokenizedTerms, len(articles))
 	for i, val := range articles {
+		CleanTerms[i] = make([]TokenizedTerms, len(val))
 		for j, val2 := range val {
 			CleanTerms[i][j] = GetTerms(val2)
 		}
@@ -19,11 +21,7 @@ func DocumentLexicalAnalyzer() [][]TokenizedTerms {
 	return CleanTerms
 }
 
-func QueryLexicalAnalyzer(query string) {
-
-}
-
-func removeStopWords(term string) string {
+func RemoveStopWords(term string) string {
 	stopWords := GetStopWords()
 
 	if _, found := stopWords[term]; found {
@@ -32,7 +30,7 @@ func removeStopWords(term string) string {
 	return term
 }
 
-func replaceAbbreviations(term string) string {
+func ReplaceAbbreviations(term string) string {
 	abbreviations := GetAbbreviations()
 
 	if _, found := abbreviations[term]; found {
@@ -41,18 +39,23 @@ func replaceAbbreviations(term string) string {
 	return term
 }
 
-var unwanted_characters = []string{
+// do not include "/" or "-"
+var unwanted_characters = []string{ 
 	"“",
 	"”",
+	"\"",
 	"።",
 	":",
+	"፡",
 	"(",
 	")",
 }
 
-func removeCharacters(term string) string {
+func RemoveCharacters(term string) string {
 	for _, val := range unwanted_characters {
-		term = strings.ReplaceAll(term, val, "")
+		if strings.ContainsAny(term, val) {
+			term = strings.ReplaceAll(term, val, "")
+		}
 	}
 	return term
 }

@@ -66,7 +66,7 @@ func GetAbbreviations() Abbreviaitons {
 
 func GetDocuments() [][]Article{
 	articles := [][]Article{}
-	for i := 0; i < 1; i++ { // i < 22
+	for i := 0; i < 22; i++ { // i < 22
 		articles = append(articles, GetPage("tech_articles", fmt.Sprintf("page_%d.json", i+1)))
 	}
 	return articles

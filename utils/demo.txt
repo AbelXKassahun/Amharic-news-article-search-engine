@@ -1,0 +1,924 @@
+Document 9 pg10_ar10_crg3jk1mjyno:
+number of terms 218:
+ pg10_ar14_c3g8mymx10lo:
+number of terms 333:
+ pg10_ar20_cp6lw1xn208o:
+number of terms 164:
+ pg10_ar22_cz5n83kpl47o:
+number of terms 219:
+ pg10_ar24_cd1exwdr355o:
+number of terms 238:
+ pg10_ar1_c90yyy4v8kjo:
+number of terms 255:
+ pg10_ar5_czq3wnv8jlwo:
+number of terms 217:
+ pg10_ar7_cxr51drpxq3o:
+number of terms 515:
+ pg10_ar19_cz4vngqjv7xo:
+number of terms 622:
+ pg10_ar2_ck54722kg4zo:
+number of terms 706:
+ pg10_ar6_cv28ee9pnjxo:
+number of terms 471:
+ pg10_ar8_c97j4e2eldyo:
+number of terms 162:
+ pg10_ar9_c048pvnd9meo:
+number of terms 434:
+ pg10_ar11_c727xd9zy0no:
+number of terms 145:
+ pg10_ar13_c8v4zp4e9n3o:
+number of terms 287:
+ pg10_ar21_c0wzew2yx90o:
+number of terms 787:
+ pg10_ar23_cq5vx25jl5go:
+number of terms 755:
+ pg10_ar4_c3g91wrv61vo:
+number of terms 874:
+ pg10_ar12_cl7dy4z11qgo:
+number of terms 194:
+ pg10_ar17_c72w1vqxy41o:
+number of terms 533:
+ pg10_ar3_cg38pwlvrdeo:
+number of terms 22:
+Document 10 pg11_ar18_unknown:
+number of terms 192:
+ pg11_ar5_c5168npq7dyo:
+number of terms 158:
+ pg11_ar12_cx8n2pw251no:
+number of terms 261:
+ pg11_ar13_c0kgkp11rj2o:
+number of terms 383:
+ pg11_ar14_c3gpg789455o:
+number of terms 124:
+ pg11_ar23_unknown:
+number of terms 807:
+ pg11_ar8_cn0w544gwdwo:
+number of terms 403:
+ pg11_ar9_c6p3lygjne7o:
+number of terms 197:
+ pg11_ar10_cye9w6rl475o:
+number of terms 174:
+ pg11_ar15_unknown:
+number of terms 899:
+ pg11_ar20_unknown:
+number of terms 137:
+ pg11_ar19_unknown:
+number of terms 182:
+ pg11_ar21_unknown:
+number of terms 448:
+ pg11_ar1_c8472dpw0k7o:
+number of terms 608:
+ pg11_ar6_cev51ryzz9xo:
+number of terms 138:
+ pg11_ar17_unknown:
+number of terms 591:
+ pg11_ar22_unknown:
+number of terms 166:
+ pg11_ar4_cy6pp1jdy76o:
+number of terms 345:
+Document 16 pg17_ar1_unknown:
+number of terms 163:
+ pg17_ar12_unknown:
+number of terms 173:
+ pg17_ar14_unknown:
+number of terms 210:
+ pg17_ar15_unknown:
+number of terms 164:
+ pg17_ar3_unknown:
+number of terms 216:
+ pg17_ar5_unknown:
+number of terms 296:
+ pg17_ar17_unknown:
+number of terms 209:
+ pg17_ar20_unknown:
+number of terms 166:
+ pg17_ar7_unknown:
+number of terms 309:
+ pg17_ar11_unknown:
+number of terms 501:
+ pg17_ar22_unknown:
+number of terms 451:
+ pg17_ar18_unknown:
+number of terms 274:
+ pg17_ar19_unknown:
+number of terms 203:
+ pg17_ar23_unknown:
+number of terms 167:
+ pg17_ar24_unknown:
+number of terms 217:
+ pg17_ar6_unknown:
+number of terms 308:
+ pg17_ar9_unknown:
+number of terms 276:
+ pg17_ar13_unknown:
+number of terms 331:
+ pg17_ar16_unknown:
+number of terms 178:
+Document 20 pg21_ar15_unknown:
+number of terms 185:
+ pg21_ar2_unknown:
+number of terms 208:
+ pg21_ar5_unknown:
+number of terms 327:
+ pg21_ar10_unknown:
+number of terms 221:
+ pg21_ar11_unknown:
+number of terms 189:
+ pg21_ar14_unknown:
+number of terms 111:
+ pg21_ar23_unknown:
+number of terms 233:
+ pg21_ar24_unknown:
+number of terms 223:
+ pg21_ar7_unknown:
+number of terms 268:
+ pg21_ar19_unknown:
+number of terms 256:
+ pg21_ar4_unknown:
+number of terms 632:
+ pg21_ar6_unknown:
+number of terms 177:
+ pg21_ar8_unknown:
+number of terms 382:
+ pg21_ar12_unknown:
+number of terms 218:
+ pg21_ar21_unknown:
+number of terms 140:
+ pg21_ar1_unknown:
+number of terms 358:
+ pg21_ar3_unknown:
+number of terms 20:
+ pg21_ar9_unknown:
+number of terms 52:
+ pg21_ar16_unknown:
+number of terms 176:
+ pg21_ar18_unknown:
+number of terms 154:
+ pg21_ar20_unknown:
+number of terms 358:
+ pg21_ar22_unknown:
+number of terms 201:
+Document 21 pg22_ar6_unknown:
+number of terms 118:
+ pg22_ar19_unknown:
+number of terms 556:
+ pg22_ar14_unknown:
+number of terms 591:
+ pg22_ar13_unknown:
+number of terms 202:
+ pg22_ar20_unknown:
+number of terms 245:
+ pg22_ar2_unknown:
+number of terms 446:
+ pg22_ar4_unknown:
+number of terms 413:
+ pg22_ar5_unknown:
+number of terms 326:
+ pg22_ar10_unknown:
+number of terms 201:
+ pg22_ar12_unknown:
+number of terms 754:
+ pg22_ar15_unknown:
+number of terms 442:
+ pg22_ar3_unknown:
+number of terms 128:
+ pg22_ar7_unknown:
+number of terms 214:
+ pg22_ar8_unknown:
+number of terms 269:
+ pg22_ar11_unknown:
+number of terms 223:
+ pg22_ar1_unknown:
+number of terms 103:
+ pg22_ar16_unknown:
+number of terms 278:
+ pg22_ar17_unknown:
+number of terms 358:
+ pg22_ar18_unknown:
+number of terms 159:
+Document 0 pg1_ar1_c05l97y4qe9o:
+number of terms 385:
+ pg1_ar7_c0q05dne8weo:
+number of terms 158:
+ pg1_ar11_c0lpke3g4w5o:
+number of terms 826:
+ pg1_ar15_cdr0030kx5ko:
+number of terms 686:
+ pg1_ar16_cwyddgywyzyo:
+number of terms 316:
+ pg1_ar24_cx2n1dx8qvvo:
+number of terms 859:
+ pg1_ar2_c8r5kv6yegko:
+number of terms 367:
+ pg1_ar6_c74l57pwv25o:
+number of terms 329:
+ pg1_ar9_cj0ry2jgzjpo:
+number of terms 389:
+ pg1_ar18_c4glpz9md0eo:
+number of terms 741:
+ pg1_ar20_c623nrrnp41o:
+number of terms 526:
+ pg1_ar19_cj9n4myjp7yo:
+number of terms 436:
+ pg1_ar3_cly4jrrjdzlo:
+number of terms 195:
+ pg1_ar8_c3e3zy9kp3wo:
+number of terms 212:
+ pg1_ar10_cn0xzlrpkp3o:
+number of terms 170:
+ pg1_ar12_cd9n5gz04wjo:
+number of terms 607:
+ pg1_ar14_c20w19rn01vo:
+number of terms 366:
+ pg1_ar13_cnv3zl3dg3lo:
+number of terms 253:
+ pg1_ar17_c84404k8jx0o:
+number of terms 426:
+ pg1_ar21_cvgpdg4yxq3o:
+number of terms 202:
+ pg1_ar22_c24np6v17gno:
+number of terms 344:
+ pg1_ar23_cm27yyrq281o:
+number of terms 532:
+Document 6 pg7_ar5_c2qdkyzwrq3o:
+number of terms 206:
+ pg7_ar7_clwdwwg52rdo:
+number of terms 216:
+ pg7_ar14_c14x8nwrnk5o:
+number of terms 238:
+ pg7_ar15_cv2rjz3g14lo:
+number of terms 191:
+ pg7_ar8_c72mpjgvm11o:
+number of terms 211:
+ pg7_ar12_c97njlprrdlo:
+number of terms 653:
+ pg7_ar17_czvp4g42z5zo:
+number of terms 190:
+ pg7_ar22_c84wl07xrgjo:
+number of terms 186:
+ pg7_ar2_c3g4veyypvgo:
+number of terms 211:
+ pg7_ar1_c3gd4keyg3jo:
+number of terms 187:
+ pg7_ar4_c4n0770y2e3o:
+number of terms 214:
+ pg7_ar6_cd1wx0y20e7o:
+number of terms 189:
+ pg7_ar9_c51j7jdv80ro:
+number of terms 149:
+ pg7_ar20_c9wjp1nexmko:
+number of terms 534:
+ pg7_ar3_cll0y03qr9go:
+number of terms 264:
+ pg7_ar10_c6pvxr7p2yzo:
+number of terms 176:
+ pg7_ar16_cy9075j8j24o:
+number of terms 541:
+ pg7_ar18_c8vy9epygn9o:
+number of terms 179:
+ pg7_ar19_c4npvwjp7k0o:
+number of terms 507:
+ pg7_ar21_cn3elnk5eego:
+number of terms 193:
+ pg7_ar23_c72z74ypjd1o:
+number of terms 159:
+ pg7_ar24_cndg6dxy27jo:
+number of terms 231:
+Document 12 pg13_ar7_unknown:
+number of terms 181:
+ pg13_ar10_unknown:
+number of terms 394:
+ pg13_ar11_unknown:
+number of terms 162:
+ pg13_ar15_unknown:
+number of terms 281:
+ pg13_ar19_unknown:
+number of terms 285:
+ pg13_ar4_unknown:
+number of terms 456:
+ pg13_ar1_unknown:
+number of terms 191:
+ pg13_ar8_unknown:
+number of terms 295:
+ pg13_ar17_unknown:
+number of terms 257:
+ pg13_ar21_unknown:
+number of terms 442:
+ pg13_ar22_unknown:
+number of terms 652:
+ pg13_ar24_unknown:
+number of terms 183:
+ pg13_ar2_unknown:
+number of terms 535:
+ pg13_ar6_unknown:
+number of terms 149:
+ pg13_ar9_unknown:
+number of terms 332:
+ pg13_ar12_unknown:
+number of terms 135:
+ pg13_ar13_unknown:
+number of terms 184:
+ pg13_ar20_unknown:
+number of terms 440:
+ pg13_ar23_unknown:
+number of terms 161:
+ pg13_ar3_unknown:
+number of terms 290:
+ pg13_ar14_unknown:
+number of terms 201:
+ pg13_ar16_unknown:
+number of terms 276:
+ pg13_ar18_unknown:
+number of terms 321:
+ pg13_ar5_unknown:
+number of terms 250:
+Document 14 pg15_ar22_unknown:
+number of terms 266:
+ pg15_ar2_unknown:
+number of terms 160:
+ pg15_ar10_unknown:
+number of terms 206:
+ pg15_ar16_unknown:
+number of terms 193:
+ pg15_ar19_unknown:
+number of terms 205:
+ pg15_ar20_unknown:
+number of terms 120:
+ pg15_ar21_unknown:
+number of terms 150:
+ pg15_ar24_unknown:
+number of terms 200:
+ pg15_ar1_unknown:
+number of terms 569:
+ pg15_ar6_unknown:
+number of terms 149:
+ pg15_ar14_unknown:
+number of terms 243:
+ pg15_ar17_unknown:
+number of terms 275:
+ pg15_ar18_unknown:
+number of terms 182:
+ pg15_ar5_unknown:
+number of terms 173:
+ pg15_ar7_unknown:
+number of terms 254:
+ pg15_ar13_unknown:
+number of terms 282:
+ pg15_ar15_unknown:
+number of terms 176:
+ pg15_ar23_unknown:
+number of terms 156:
+ pg15_ar8_unknown:
+number of terms 348:
+ pg15_ar12_unknown:
+number of terms 428:
+Document 1 pg2_ar10_c39lmp4n92mo:
+number of terms 204:
+ pg2_ar20_c93pgq49702o:
+number of terms 226:
+ pg2_ar23_clkm8d0g4kjo:
+number of terms 649:
+ pg2_ar4_ckgd2zlvn1ko:
+number of terms 243:
+ pg2_ar8_cd6q01qwz59o:
+number of terms 598:
+ pg2_ar9_cdx9dv092xeo:
+number of terms 388:
+ pg2_ar17_ckgm3km3zwxo:
+number of terms 150:
+ pg2_ar19_c1jdx1yj2n9o:
+number of terms 304:
+ pg2_ar3_czxreq5104zo:
+number of terms 215:
+ pg2_ar5_c4gx0k4y3exo:
+number of terms 229:
+ pg2_ar6_cnvjq13lg7qo:
+number of terms 239:
+ pg2_ar12_c0wwz5l2nvwo:
+number of terms 554:
+ pg2_ar15_cpdq6yey265o:
+number of terms 264:
+ pg2_ar16_cly42zjvnx8o:
+number of terms 234:
+ pg2_ar21_cn8jy8xzppxo:
+number of terms 301:
+ pg2_ar22_clyl74lxgnjo:
+number of terms 645:
+ pg2_ar24_cr40gnx0gg2o:
+number of terms 488:
+ pg2_ar1_c3demrjx7x1o:
+number of terms 199:
+ pg2_ar2_cr5med6geydo:
+number of terms 322:
+ pg2_ar7_crmzw8mgz7do:
+number of terms 206:
+ pg2_ar11_cd73jlzy9jro:
+number of terms 551:
+ pg2_ar13_cpv34l023xeo:
+number of terms 506:
+Document 2 pg3_ar22_czkzjk35r4po:
+number of terms 478:
+ pg3_ar10_cgr5j6qmyv8o:
+number of terms 151:
+ pg3_ar12_cne40v4jwego:
+number of terms 463:
+ pg3_ar21_cv2jl8pdg9wo:
+number of terms 403:
+ pg3_ar11_c84j30pme3do:
+number of terms 580:
+ pg3_ar18_cldd55w0d7po:
+number of terms 245:
+ pg3_ar24_cxx8kr1n526o:
+number of terms 394:
+ pg3_ar5_cldyrev4kkzo:
+number of terms 485:
+ pg3_ar8_cvgxdzglqdyo:
+number of terms 388:
+ pg3_ar9_cy0nny01n39o:
+number of terms 272:
+ pg3_ar13_cnk42x2q4k5o:
+number of terms 184:
+ pg3_ar15_cqll4lkg09po:
+number of terms 402:
+ pg3_ar16_cd11jpzkj0no:
+number of terms 388:
+ pg3_ar17_clwwqrer9gjo:
+number of terms 472:
+ pg3_ar20_c3g5y3wjl09o:
+number of terms 355:
+ pg3_ar1_cp6r6z3wk8ro:
+number of terms 312:
+ pg3_ar2_crg7xzk9mz8o:
+number of terms 556:
+ pg3_ar3_cz6xy6wj1zjo:
+number of terms 310:
+ pg3_ar23_cl7ln440zpxo:
+number of terms 94:
+ pg3_ar14_c844z4p89x4o:
+number of terms 480:
+ pg3_ar19_ckkegdg6er0o:
+number of terms 256:
+Document 11 pg12_ar16_unknown:
+number of terms 18:
+ pg12_ar20_unknown:
+number of terms 196:
+ pg12_ar22_unknown:
+number of terms 257:
+ pg12_ar24_unknown:
+number of terms 406:
+ pg12_ar7_unknown:
+number of terms 1022:
+ pg12_ar12_unknown:
+number of terms 181:
+ pg12_ar3_unknown:
+number of terms 440:
+ pg12_ar4_unknown:
+number of terms 185:
+ pg12_ar5_unknown:
+number of terms 443:
+ pg12_ar6_unknown:
+number of terms 209:
+ pg12_ar8_unknown:
+number of terms 177:
+ pg12_ar18_unknown:
+number of terms 153:
+ pg12_ar1_unknown:
+number of terms 263:
+ pg12_ar2_unknown:
+number of terms 175:
+ pg12_ar21_unknown:
+number of terms 176:
+ pg12_ar23_unknown:
+number of terms 192:
+ pg12_ar13_unknown:
+number of terms 495:
+ pg12_ar17_unknown:
+number of terms 430:
+ pg12_ar11_unknown:
+number of terms 346:
+ pg12_ar14_unknown:
+number of terms 216:
+ pg12_ar15_unknown:
+number of terms 787:
+ pg12_ar19_unknown:
+number of terms 465:
+ pg12_ar9_unknown:
+number of terms 383:
+ pg12_ar10_unknown:
+number of terms 90:
+Document 13 pg14_ar9_unknown:
+number of terms 548:
+ pg14_ar17_unknown:
+number of terms 252:
+ pg14_ar22_unknown:
+number of terms 123:
+ pg14_ar3_unknown:
+number of terms 289:
+ pg14_ar5_unknown:
+number of terms 172:
+ pg14_ar8_unknown:
+number of terms 158:
+ pg14_ar18_unknown:
+number of terms 228:
+ pg14_ar19_unknown:
+number of terms 172:
+ pg14_ar21_unknown:
+number of terms 282:
+ pg14_ar23_unknown:
+number of terms 181:
+ pg14_ar7_unknown:
+number of terms 453:
+ pg14_ar14_unknown:
+number of terms 242:
+ pg14_ar16_unknown:
+number of terms 173:
+ pg14_ar1_unknown:
+number of terms 388:
+ pg14_ar2_unknown:
+number of terms 257:
+ pg14_ar4_unknown:
+number of terms 688:
+ pg14_ar6_unknown:
+number of terms 663:
+ pg14_ar10_unknown:
+number of terms 137:
+ pg14_ar13_unknown:
+number of terms 177:
+ pg14_ar15_unknown:
+number of terms 39:
+Document 18 pg19_ar1_unknown:
+number of terms 154:
+ pg19_ar4_unknown:
+number of terms 267:
+ pg19_ar10_unknown:
+number of terms 148:
+ pg19_ar11_unknown:
+number of terms 146:
+ pg19_ar17_unknown:
+number of terms 184:
+ pg19_ar21_unknown:
+number of terms 411:
+ pg19_ar22_unknown:
+number of terms 372:
+ pg19_ar2_unknown:
+number of terms 907:
+ pg19_ar5_unknown:
+number of terms 312:
+ pg19_ar7_unknown:
+number of terms 133:
+ pg19_ar8_unknown:
+number of terms 243:
+ pg19_ar9_unknown:
+number of terms 188:
+ pg19_ar14_unknown:
+number of terms 159:
+ pg19_ar20_unknown:
+number of terms 222:
+ pg19_ar18_unknown:
+number of terms 55:
+ pg19_ar3_unknown:
+number of terms 167:
+ pg19_ar12_unknown:
+number of terms 138:
+ pg19_ar13_unknown:
+number of terms 158:
+ pg19_ar15_unknown:
+number of terms 130:
+ pg19_ar16_unknown:
+number of terms 281:
+ pg19_ar24_unknown:
+number of terms 164:
+Document 3 pg4_ar18_cg3wwpwrrddo:
+number of terms 203:
+ pg4_ar21_cpr8vgn8n8jo:
+number of terms 181:
+ pg4_ar22_c4nx37ddxwqo:
+number of terms 882:
+ pg4_ar23_cxrke29qn5wo:
+number of terms 437:
+ pg4_ar10_ckvwky1yv4xo:
+number of terms 205:
+ pg4_ar11_cd192g49r24o:
+number of terms 441:
+ pg4_ar15_c0d3nx9d184o:
+number of terms 529:
+ pg4_ar17_c72g1glle3jo:
+number of terms 598:
+ pg4_ar24_c3g3kpvegkdo:
+number of terms 178:
+ pg4_ar7_c90e78v34xxo:
+number of terms 321:
+ pg4_ar16_cd1v7xnxnjjo:
+number of terms 314:
+ pg4_ar3_c97zge49y1no:
+number of terms 200:
+ pg4_ar8_clkm1eydj7po:
+number of terms 252:
+ pg4_ar12_cxezx1m736yo:
+number of terms 365:
+ pg4_ar13_czrzkpej892o:
+number of terms 155:
+ pg4_ar6_cml774n7vd1o:
+number of terms 421:
+ pg4_ar9_cxrzddqqqqeo:
+number of terms 298:
+ pg4_ar14_c6pk6p8zj66o:
+number of terms 327:
+ pg4_ar19_crgv1dzj0nwo:
+number of terms 532:
+ pg4_ar1_c88zg5rjl8eo:
+number of terms 224:
+ pg4_ar2_c25rpl9xegyo:
+number of terms 231:
+ pg4_ar4_cz4xv4w4pdro:
+number of terms 270:
+ pg4_ar5_c4nrgkv4rk1o:
+number of terms 176:
+ pg4_ar20_cd18jxkwx14o:
+number of terms 163:
+Document 4 pg5_ar4_czrld3ymgm8o:
+number of terms 621:
+ pg5_ar5_c9e8x3y4vydo:
+number of terms 176:
+ pg5_ar7_cg6wpeere3zo:
+number of terms 349:
+ pg5_ar14_c03yw6489x5o:
+number of terms 291:
+ pg5_ar23_ck5py066w3yo:
+number of terms 201:
+ pg5_ar24_cn4p1d73dgyo:
+number of terms 241:
+ pg5_ar2_cv2xp93gv98o:
+number of terms 233:
+ pg5_ar8_cnlvryre7gro:
+number of terms 173:
+ pg5_ar10_c4nyvm4g8x6o:
+number of terms 742:
+ pg5_ar11_c4n4pyqg0l2o:
+number of terms 850:
+ pg5_ar12_c6p1e2errz0o:
+number of terms 154:
+ pg5_ar17_c3g20r8ll1go:
+number of terms 169:
+ pg5_ar3_c88nyyr0jx4o:
+number of terms 209:
+ pg5_ar6_c51e3yndj8lo:
+number of terms 203:
+ pg5_ar18_cd1pl4en8d3o:
+number of terms 215:
+ pg5_ar20_cq5p8lng72no:
+number of terms 168:
+ pg5_ar21_ckkpqk5d6qro:
+number of terms 215:
+ pg5_ar22_ckkpq6yqqzko:
+number of terms 256:
+ pg5_ar16_cv2qeye5jypo:
+number of terms 266:
+ pg5_ar19_cq5pldrqzjwo:
+number of terms 243:
+Document 5 pg6_ar10_cprwd8zv282o:
+number of terms 334:
+ pg6_ar13_cy9q05k5pv8o:
+number of terms 495:
+ pg6_ar14_c512ynq0x58o:
+number of terms 262:
+ pg6_ar18_c6pn069gg08o:
+number of terms 154:
+ pg6_ar20_cpdj4248gnlo:
+number of terms 220:
+ pg6_ar1_cxx1w4knzpzo:
+number of terms 133:
+ pg6_ar2_czq79x8q1e1o:
+number of terms 292:
+ pg6_ar4_cd138ykd810o:
+number of terms 217:
+ pg6_ar6_c04j29ngp0do:
+number of terms 239:
+ pg6_ar7_c25zgwdnx72o:
+number of terms 149:
+ pg6_ar17_ce4zvxdwd27o:
+number of terms 397:
+ pg6_ar3_cv23xepyq1do:
+number of terms 191:
+ pg6_ar9_cxxy184x26po:
+number of terms 376:
+ pg6_ar15_crgegex0zl3o:
+number of terms 205:
+ pg6_ar16_czv15724gq2o:
+number of terms 216:
+ pg6_ar23_unknown:
+number of terms 27:
+ pg6_ar5_c3gj243el0xo:
+number of terms 154:
+ pg6_ar11_c51dy89jnx9o:
+number of terms 275:
+ pg6_ar19_cxwgxjmr7wro:
+number of terms 260:
+ pg6_ar21_cpdj0n7j8v4o:
+number of terms 424:
+ pg6_ar22_c89rjr3qgnqo:
+number of terms 151:
+ pg6_ar24_c512xyl1ek0o:
+number of terms 421:
+Document 7 pg8_ar23_ckr483gvg5ko:
+number of terms 405:
+ pg8_ar4_c3gp2754xggo:
+number of terms 242:
+ pg8_ar9_cd1429v7v0ko:
+number of terms 194:
+ pg8_ar15_crg526k9r0zo:
+number of terms 372:
+ pg8_ar16_c0j7n9z7w9do:
+number of terms 620:
+ pg8_ar17_c0vz832w91lo:
+number of terms 42:
+ pg8_ar19_cp6wl19l9g9o:
+number of terms 444:
+ pg8_ar22_cn0206v1jl3o:
+number of terms 559:
+ pg8_ar24_cgljy54jrkyo:
+number of terms 194:
+ pg8_ar2_cglz4eln85jo:
+number of terms 249:
+ pg8_ar5_cd1kvgk8p02o:
+number of terms 171:
+ pg8_ar14_c3gr7rmpp7ro:
+number of terms 361:
+ pg8_ar3_cw4p2md8xgdo:
+number of terms 187:
+ pg8_ar11_clmdej7nkgvo:
+number of terms 180:
+ pg8_ar13_c4n73zjxjjwo:
+number of terms 316:
+Document 8 pg9_ar9_cgl5n18yjngo:
+number of terms 182:
+ pg9_ar1_c3gjz24wg8xo:
+number of terms 231:
+ pg9_ar2_cz7r8jewrdeo:
+number of terms 162:
+ pg9_ar7_c041j3l0rr0o:
+number of terms 352:
+ pg9_ar15_cgl1m1yn2p4o:
+number of terms 196:
+ pg9_ar21_cekv1p424jro:
+number of terms 397:
+ pg9_ar24_cp65yw26nz5o:
+number of terms 270:
+ pg9_ar4_c72685nr4yjo:
+number of terms 280:
+ pg9_ar5_c4nmexr1l0vo:
+number of terms 232:
+ pg9_ar11_cd1lv4g7v3lo:
+number of terms 194:
+ pg9_ar19_ce4gv87jwgxo:
+number of terms 196:
+ pg9_ar22_c3gxrmpylkko:
+number of terms 44:
+ pg9_ar3_cllm48jp964o:
+number of terms 533:
+ pg9_ar6_cyry615d6rjo:
+number of terms 381:
+ pg9_ar17_cz9yen17mzlo:
+number of terms 196:
+ pg9_ar20_cp3yrj23485o:
+number of terms 157:
+ pg9_ar23_clmg95l1zv8o:
+number of terms 187:
+ pg9_ar8_cl512905q48o:
+number of terms 210:
+ pg9_ar12_c4n82d7kgv0o:
+number of terms 359:
+ pg9_ar13_c893g0ldey7o:
+number of terms 133:
+Document 15 pg16_ar2_unknown:
+number of terms 171:
+ pg16_ar4_unknown:
+number of terms 247:
+ pg16_ar7_unknown:
+number of terms 218:
+ pg16_ar14_unknown:
+number of terms 418:
+ pg16_ar15_unknown:
+number of terms 151:
+ pg16_ar16_unknown:
+number of terms 220:
+ pg16_ar18_unknown:
+number of terms 128:
+ pg16_ar23_unknown:
+number of terms 398:
+ pg16_ar8_unknown:
+number of terms 273:
+ pg16_ar10_unknown:
+number of terms 473:
+ pg16_ar13_unknown:
+number of terms 135:
+ pg16_ar20_unknown:
+number of terms 177:
+ pg16_ar21_unknown:
+number of terms 194:
+ pg16_ar3_unknown:
+number of terms 397:
+ pg16_ar5_unknown:
+number of terms 563:
+ pg16_ar6_unknown:
+number of terms 193:
+ pg16_ar17_unknown:
+number of terms 126:
+ pg16_ar22_unknown:
+number of terms 294:
+Document 17 pg18_ar2_unknown:
+number of terms 287:
+ pg18_ar3_unknown:
+number of terms 162:
+ pg18_ar7_unknown:
+number of terms 170:
+ pg18_ar17_unknown:
+number of terms 233:
+ pg18_ar19_unknown:
+number of terms 180:
+ pg18_ar20_unknown:
+number of terms 287:
+ pg18_ar6_unknown:
+number of terms 235:
+ pg18_ar11_unknown:
+number of terms 155:
+ pg18_ar15_unknown:
+number of terms 184:
+ pg18_ar18_unknown:
+number of terms 221:
+ pg18_ar23_unknown:
+number of terms 225:
+ pg18_ar24_unknown:
+number of terms 148:
+ pg18_ar1_unknown:
+number of terms 355:
+ pg18_ar5_unknown:
+number of terms 501:
+ pg18_ar8_unknown:
+number of terms 168:
+ pg18_ar9_unknown:
+number of terms 178:
+ pg18_ar12_unknown:
+number of terms 117:
+ pg18_ar13_unknown:
+number of terms 178:
+ pg18_ar14_unknown:
+number of terms 48:
+ pg18_ar22_unknown:
+number of terms 264:
+ pg18_ar4_unknown:
+number of terms 258:
+ pg18_ar10_unknown:
+number of terms 239:
+ pg18_ar16_unknown:
+number of terms 169:
+ pg18_ar21_unknown:
+number of terms 472:
+Document 19 pg20_ar1_unknown:
+number of terms 234:
+ pg20_ar17_unknown:
+number of terms 185:
+ pg20_ar18_unknown:
+number of terms 281:
+ pg20_ar5_unknown:
+number of terms 243:
+ pg20_ar9_unknown:
+number of terms 296:
+ pg20_ar10_unknown:
+number of terms 151:
+ pg20_ar11_unknown:
+number of terms 266:
+ pg20_ar13_unknown:
+number of terms 358:
+ pg20_ar14_unknown:
+number of terms 159:
+ pg20_ar19_unknown:
+number of terms 161:
+ pg20_ar24_unknown:
+number of terms 436:
+ pg20_ar6_unknown:
+number of terms 759:
+ pg20_ar7_unknown:
+number of terms 151:
+ pg20_ar12_unknown:
+number of terms 263:
+ pg20_ar16_unknown:
+number of terms 420:
+ pg20_ar22_unknown:
+number of terms 247:
+ pg20_ar23_unknown:
+number of terms 159:
+ pg20_ar21_unknown:
+number of terms 193:
+ pg20_ar2_unknown:
+number of terms 167:
+ pg20_ar3_unknown:
+number of terms 521:
+ pg20_ar4_unknown:
+number of terms 214:
+ pg20_ar8_unknown:
+number of terms 974:
+ pg20_ar15_unknown:
+number of terms 293:
+ pg20_ar20_unknown:
+number of terms 156:

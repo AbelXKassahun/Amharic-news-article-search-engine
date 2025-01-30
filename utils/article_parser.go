@@ -20,7 +20,7 @@ func GetTerms(article Article) TokenizedTerms {
 		if val.ContentType == "p" {
 			sentence := strings.Split(val.Text, " ")
 			for _, term := range sentence {
-				tokenizedTerms.Terms = append(tokenizedTerms.Terms, replaceAbbreviations(removeStopWords(removeCharacters(term))))
+				tokenizedTerms.Terms = append(tokenizedTerms.Terms, ReplaceAbbreviations(RemoveStopWords(RemoveCharacters(term))))
 			}
 		}
 	}
