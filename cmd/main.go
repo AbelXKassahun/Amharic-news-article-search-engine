@@ -1,22 +1,17 @@
 package main
 
 import (
-	// "fmt"
+	"fmt"
 	"html/template"
 	"log"
 	"net/http"
-	"strings"
 	"search_engine/searchEngine"
 	"search_engine/utils"
+	"strings"
 )
 
-// var tmpl = template.Must(template.ParseFiles("../UI/index.html"))
 
-// func outTest(w http.ResponseWriter, r * http.Request) {
-// 	fmt.Fprintf(w,
-// 	`<h1>OLA</h1>`,
-// 	)
-// }
+var PORT = 8000
 
 func main() {
 	mux := http.NewServeMux()
@@ -25,26 +20,17 @@ func main() {
 	mux.HandleFunc("/search", searchHandler)
 	mux.HandleFunc("/details/", detailsHandler)
 
-	log.Print("Listening on port 8000")
-	err := http.ListenAndServe(":8000", mux)
+	log.Print("Listening on port ", PORT)
+	err := http.ListenAndServe(fmt.Sprintf(":%d", PORT), mux)
 
-	log.Fatalf("couldn't listen to port 8000: %v \n", err)
+	log.Fatalf("couldn't listen to port %d: %v \n", PORT, err)
 }
 
 func indexHandler(w http.ResponseWriter, r *http.Request) {
 	tmpl := template.Must(template.ParseFiles("templates/index.html"))
 	tmpl.Execute(w, nil)
 }
-/*
-type Article struct {
-	Article_ID    string      `json:"article_id"`
-	Title         string      `json:"title"`
-	PublishedTime time.Time   `json:"published_time"`
-	ArticleImage  image_info  `json:"article_image"`
-	ArticleMeta   ArticleMeta `json:"article_meta"`
-	Content       []Content   `json:"content"`
-}
-*/
+
 var Articles []utils.Article
 // var prevQuery string
 func searchHandler(w http.ResponseWriter, r *http.Request) {
@@ -52,9 +38,18 @@ func searchHandler(w http.ResponseWriter, r *http.Request) {
 	// if query != "" && query != prevQuery {
 	// 	prevQuery = query
 	// }
-	Articles = searchEngine.SearchEngine(query)
+	temp_articles, found := searchEngine.SearchEngine(query)
+	if !found {
+		tmpl := template.Must(template.ParseFiles("templates/no_results.html"))
+		err := tmpl.Execute(w, query) 
+		if err != nil {
+			http.Error(w, "Failed to render the no results template.", http.StatusInternalServerError)
+		}
+		return
+	}
+	Articles = temp_articles
 	tmpl := template.Must(template.ParseFiles("templates/cards.html"))
-	tmpl.Execute(w, Articles) 
+	tmpl.Execute(w, Articles)
 }
 
 var articleTmpl = template.Must(template.New("article").Funcs(template.FuncMap{
@@ -92,3 +87,20 @@ func detailsHandler(w http.ResponseWriter, r *http.Request) {
 
     articleTmpl.Execute(w, articleDetail)
 }
+
+// package main
+
+// import (
+// 	"search_engine/searchEngine"
+// 	// "fmt"
+
+// 	// "github.com/AbelXKassahun/Amharic-Stemmer/stemmer"
+// )
+
+
+
+// func main(){
+
+// 	// fmt.Println(stemmer.Stem("ሆኗል"))
+// 	searchEngine.TermWeighing()
+// }

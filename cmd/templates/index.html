@@ -6,52 +6,24 @@
     <title>ቢቢሲ ዜና</title>
     <link rel="stylesheet" href="/static/styles.css">
     <script src="https://unpkg.com/htmx.org@2.0.4"></script>
+    <style>
+        .disabled {
+            opacity: 0.5;
+            pointer-events: none;
+        }
+    </style>
 </head>
 <body>
-    <!-- <nav></nav> -->
     <div class="container" id="content">
         <h1>ቢቢሲ ዜና ቴክኖሎጂ</h1>
         
-        <form hx-post="/search" hx-target="#results" hx-on:submit="validateForm(event)" hx-swap="innerHTML">
-            <input type="text" id="userInput" name="query" placeholder="ፈልግ..." oninput="checkInput()" required>
-            <button id="submitBtn" type="submit" disabled>ፈልግ</button>
+        <form id="myForm" hx-post="/search" hx-target="#results" hx-swap="innerHTML"> <!-- hx-swap="innerHTML" hx-on:submit="validateForm(event)"-->
+            <input type="text" id="myInput" name="query" placeholder="ፈልግ..." required> <!-- oninput="validateInput()" -->
+            <button type="submit">ፈልግ</button> <!-- class="disabled" -->
         </form>
-        <p id="errorMessage" style="color: red;"></p>
+        <!-- <p id="errorMessage" style="color: red;"></p> -->
         
         <div id="results" class="cards-container"></div>
     </div>
-
-    <script>
-        let previousSubmission = null;
-
-        function checkInput() {
-            let inputField = document.getElementById("userInput");
-            let submitButton = document.getElementById("submitBtn");
-            
-            // Enable the button only if input is not empty
-            submitButton.disabled = inputField.value.trim() === "";
-        }
-
-        function validateForm(event) {
-            let inputField = document.getElementById("userInput");
-            let errorMessage = document.getElementById("errorMessage");
-
-            if (inputField.value.trim() === "") {
-                event.preventDefault(); // Prevent submission
-                errorMessage.textContent = "Input cannot be empty!";
-                return;
-            }
-
-            if (inputField.value === previousSubmission) {
-                event.preventDefault(); 
-                errorMessage.textContent = "You already submitted this input!";
-                return;
-            }
-
-            // Store last submitted value
-            previousSubmission = inputField.value;
-            errorMessage.textContent = ""; // Clear error
-        }
-    </script>
 </body>
 </html>

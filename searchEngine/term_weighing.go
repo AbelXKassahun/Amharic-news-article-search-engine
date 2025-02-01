@@ -8,7 +8,7 @@ import (
 	"os"
 	"search_engine/utils"
 
-	"github.com/vmihailenco/msgpack"
+	// "github.com/vmihailenco/msgpack"
 )
 
 type Documents map[string]map[string][4]float64
@@ -150,22 +150,22 @@ func ComputeWeight() {
 }
 
 func saveWeightToJSON() {
-	// updatedJSON, err := json.MarshalIndent(termFrequency, "", "  ")
-	// if err != nil {
-	// 	log.Fatalf("Error encoding termFreqeuncy to JSON: %v\n", err)
-	// }
-	// if err := os.WriteFile("../utils/weight.json", updatedJSON, 0644); err != nil {
-	// 	log.Fatalf("Error writing file to ../utils/weight.json: %v\n", err)
-	// }
-	// log.Println("File created and data written to: ", "../utils/weight.json")
-
-	file, _ := os.Create("../utils/weight")
-	defer file.Close()
-	encoder := msgpack.NewEncoder(file)
-	err := encoder.Encode(termFrequency)
+	updatedJSON, err := json.MarshalIndent(termFrequency, "", "  ")
 	if err != nil {
-		log.Fatalln("Couldnt encode map of weight to a file ")
+		log.Fatalf("Error encoding termFreqeuncy to JSON: %v\n", err)
 	}
+	if err := os.WriteFile("../utils/weight.json", updatedJSON, 0644); err != nil {
+		log.Fatalf("Error writing file to ../utils/weight.json: %v\n", err)
+	}
+	log.Println("File created and data written to: ", "../utils/weight.json")
+
+	// file, _ := os.Create("../utils/weight")
+	// defer file.Close()
+	// encoder := msgpack.NewEncoder(file)
+	// err := encoder.Encode(termFrequency)
+	// if err != nil {
+	// 	log.Fatalln("Couldnt encode map of weight to a file ")
+	// }
 }
 
 func GetWeightForDocuments() TermFrequency {
